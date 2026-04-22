@@ -43,7 +43,7 @@
     "globals": "^16.0.0",
     "prettier": "^3.1.0",
     "prettier-plugin-svelte": "^3.1.0",
-    "svelte": "~5.20.2",
+    "svelte": "~5.55.4",
     "svelte-check": "^4.1.4",
     "tslib": "^2.4.1",
     "typescript": "~5.7.2",
@@ -51,8 +51,8 @@
     "vite-plugin-dts": "^4.5.0",
     "vite-plugin-top-level-await": "^1.2.2",
     "vite-plugin-wasm": "^3.1.0",
-    "vitest": "^2.1.8",
-    "@vitest/ui": "^2.1.8",
+    "vitest": "^4.1.5",
+    "@vitest/ui": "^4.1.5",
     "jsdom": "^25.0.1",
     "ua-parser-js": "^1.0.33"
   }
