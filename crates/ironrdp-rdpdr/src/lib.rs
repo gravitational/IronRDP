@@ -147,7 +147,7 @@ impl Rdpdr {
     }
 
     fn handle_user_logged_on(&mut self) -> PduResult<Vec<SvcMessage>> {
-        let mut backend = self.backend.take().expect("missing rdpdr backend");
+        let mut backend = self.backend.take().ok_or(pdu_other_err!("missing rdpdr backend"))?;
         let res = backend.handle_user_logged_on(self);
         self.backend = Some(backend);
         res.inspect(|response| trace!("sending {:?}", response))
