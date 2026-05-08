@@ -24,7 +24,7 @@ qoiz = ["dep:zstd-safe", "qoi"]
 [dependencies]
 ironrdp-bulk = { path = "../ironrdp-bulk", version = "0.1" }
 ironrdp-core = { path = "../ironrdp-core", version = "0.1" } # public
-ironrdp-connector = { path = "../ironrdp-connector", version = "0.8" } # public # TODO: at some point, this dependency could be removed (good for compilation speed)
+ironrdp-connector = { path = "../ironrdp-connector", version = "0.8.1" } # public # TODO: at some point, this dependency could be removed (good for compilation speed)
 ironrdp-svc = { path = "../ironrdp-svc", version = "0.6" } # public
 ironrdp-dvc = { path = "../ironrdp-dvc", version = "0.5" } # public
 ironrdp-error = { path = "../ironrdp-error", version = "0.1" } # public
